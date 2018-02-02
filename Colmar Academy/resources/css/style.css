@@ -1,0 +1,163 @@
+html {
+
+}
+
+body {
+  margin: 0;
+}
+
+/*header*/
+
+header {
+  height: 64px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  margin-left: 24px;
+  height: 32px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 16px;
+}
+
+
+/*banner*/
+
+.main {
+  background-color: lightgray;
+  display: flex;
+
+}
+.banner img {
+  padding: 32px 24px;
+}
+.main .learn {
+  text-align: center;
+  justify-content: center;
+}
+.learn h1 {
+  font-size: 100px;
+}
+.startbutton {
+  background-color: gray;
+  color: white;
+  height: 30px;
+  width: 400px;
+  text-decoration: none;
+}
+.startbutton a {
+  margin: 30px
+}
+
+
+/*Info*/
+
+.info {
+  display: flex;
+
+}
+
+.info-main {
+  float: left;
+  margin: 32px 24px;
+  width: 60%;
+
+}
+.info-side {
+  width: 40%;
+
+  display: block;
+}
+.side {
+  display: flex;
+  margin-top: 16px;
+  flex-direction:
+}
+.side .photo {
+  width: 35%;
+  margin: 16px;
+  height: auto;
+}
+.side .text {
+  width: 65%;
+  margin: 16px;
+  flex-direction: column;
+}
+
+/*Learning*/
+
+.learning {
+  background-color: lightgray;
+
+}
+.learning h1 {
+  padding: 32px;
+  justify-content: center;
+  text-align: center;
+
+}
+.boxes {
+  margin: 0px 72px 32px 72px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+.box {
+  align-items: flex-start;
+  display: inline-block;
+  background-color: white;
+  width: auto;
+  margin-bottom: 32px;
+}
+
+.texts span {
+  margin: 8px 0px 8px 0px;
+}
+
+/*Exibit*/
+
+.exibit {
+  display: flex;
+  margin: 32px 24px;
+}
+
+.exhibit h1 {
+  padding: 32px;
+  justify-content: center;
+  text-align: center;
+}
+
+.video video {
+  float: left;
+  width: 60%;
+}
+
+.info-side .side {
+  display: flex;
+
+}
+.side .photo {
+  width: 35%;
+  margin: 16px;
+  height: auto;
+
+}
+.side .text {
+  float: right;
+  width: 65%;
+  margin: 16px;
+}
